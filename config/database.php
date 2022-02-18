@@ -65,7 +65,6 @@ return [
             ]) : [],
         ],
 
-postgres://gdazdibzyhfamo:0041785151f03e8e90b4670554ccc37f3bd520c970dc1b66b78d758e64d8c662@ec2-34-226-18-183.compute-1.amazonaws.com:5432/d1qtos9r3ovh2q
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('postgres://gdazdibzyhfamo:0041785151f03e8e90b4670554ccc37f3bd520c970dc1b66b78d758e64d8c662@ec2-34-226-18-183.compute-1.amazonaws.com:5432/d1qtos9r3ovh2q'),
