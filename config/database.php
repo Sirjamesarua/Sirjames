@@ -65,6 +65,23 @@ return [
             ]) : [],
         ],
 
+postgres://gdazdibzyhfamo:0041785151f03e8e90b4670554ccc37f3bd520c970dc1b66b78d758e64d8c662@ec2-34-226-18-183.compute-1.amazonaws.com:5432/d1qtos9r3ovh2q
+        'pgsql' => [
+            'driver' => 'pgsql',
+            'url' => env('postgres://gdazdibzyhfamo:0041785151f03e8e90b4670554ccc37f3bd520c970dc1b66b78d758e64d8c662@ec2-34-226-18-183.compute-1.amazonaws.com:5432/d1qtos9r3ovh2q'),
+            'host' => env('DB_HOST', 'ec2-34-226-18-183.compute-1.amazonaws.com:5432'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'd1qtos9r3ovh2q'),
+            'username' => env('DB_USERNAME', 'gdazdibzyhfamo'),
+            'password' => env('DB_PASSWORD', '0041785151f03e8e90b4670554ccc37f3bd520c970dc1b66b78d758e64d8c662'),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
+
+
        /* 'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
@@ -78,7 +95,7 @@ return [
             'prefix_indexes' => true,
             'schema' => 'public',
             'sslmode' => 'prefer',
-        ],*/
+        ],
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
@@ -93,7 +110,7 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
-
+*/
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
