@@ -74,6 +74,7 @@ return [
             'username' => env('DB_USERNAME', 'gdazdibzyhfamo'),
             'password' => env('DB_PASSWORD', '0041785151f03e8e90b4670554ccc37f3bd520c970dc1b66b78d758e64d8c662'),
             'charset' => 'utf8',
+            'collation' => 'utf8_general_ci'
             'prefix' => '',
             'prefix_indexes' => true,
             'schema' => 'public',
