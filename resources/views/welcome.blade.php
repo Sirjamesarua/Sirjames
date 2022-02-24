@@ -2,13 +2,10 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>{{config('app.name','sirjames')}}</title>
+    <title>{{config('app.name','ProTech')}}</title>
     <script src="./js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/w3.css')}}" />
-   <!-- <link rel="stylesheet" type="text/css" href="{{asset('css/script.js')}}" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/w3.css" />-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ></link>
 
         <style>
@@ -17,6 +14,7 @@
                     height:2500px;
                     font-family:serif;
                     color:#040978;
+                    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
                 }
                 
                 /*MY STYLE*/
@@ -43,9 +41,14 @@
                 
                 .header{
                     width:90%;
-                    color:#DFDFDF;
+                    /*color:#DFDFDF;*/
+                    color:white;
+                    text-shadow:1px 1px 2px red,0 0 25px pink,0 0 5px yellow;
                 }
-                
+
+                .about{
+                    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+                }
                 .contact-border{
                     border:4x #0C1730;
                 }
@@ -60,6 +63,7 @@
                     width:92%;
                     background-color:#DFDFDF;
                     /*background-color:white;*/
+                    box-shadow:1px 1px 2px darkblue,0 0 25px pink,0 0 5px black;
                 }
                 
                 .main2{
@@ -79,6 +83,7 @@
                 .pricing-list{
                     /*height:900px;*/
                     background-color:#780466;
+                    box-shadow:1px 1px 2px black,0 0 25px blue,0 0 5px darkblue;
                 }
                 
                     /*PROJECT*/
@@ -107,6 +112,10 @@
             .w3-left,.w3-right,.w3-badge{
                 cursor: pointer;
             }
+
+            .line{
+                box-shadow:1px 1px 2px yellow,0 0 25px pink,0 0 5px red;
+            }
         </style>
 
 
@@ -117,28 +126,17 @@
             <div class="header-container w3-center border-center">
             
                     <div class="header w3-xxjumbo w3-padding">
-                            <b><i>Sir_James</i></b>
+                            <b><i>ProTech</i></b>
                             
                             <br />
-                            <div class="w3-border w3-border-grey w3-margin"> </div>
+                            <div class="w3-border w3-border-grey w3-margin line"> </div>
+
                     </div>
                     <!--MENU-->
             </div>
             
             
             
-            
-            
-            <!--MAIN-->
-            <!--<div class="main-container border-center">
-                        <div class="main">
-                        
-                            
-                                            
-                    
-                    
-                        </div>
-            </div>-->
             
                     <!-- -->
                     <br />
@@ -155,17 +153,18 @@
                                                 
                                                             <br />
                                                             <i>Hi,</i><br />
-                                                            <i>Am <b>ARUA JAMES,</b></i><br />
-                                                            <i>The Founder Of <b>Josmarket</b></i><br />
-                                                            <i>Am A Fullstack Developer, Mobile App Developer</i><br />
-                                                            <i>And Wordpress Developer,</i><br />
-                                                            <i>I Build Beautiful, Responsive And Search</i><br />
-                                                            <i>Engine Optimize Websites And Web Applications,</i><br />
-                                                            <i>I Also Build Mobile Android Applications For Your Website,</i><br />
-                                                            <i>Business, Organization Or  Any Other Type Of Project At A Discounted Price</i><br />
+                                                            <i>Welcome To <b>PROTECH,</b></i><br />
+                                                            <i>Making Your Dreams Reality.</i><br />
+                                                            <i>Your Wonderful Ideas Requires A <br />Group Of Professional Developers To <br />Make It A Reality. </i><br />
+                                                            <i>We Build Beautiful And Responsive</i><br /> <i>Search
+                                                            Engine Optimize Websites And Web Applications,</i><br />
+                                                            <i>We Also Build Mobile Android Applications For Your Website,</i><br />
+                                                            <i>Business, Organization Or  Any Other Type Of Project.</i>
+                                                            <br />
                                                             
+                                                            <br />
                                                             <div class="w3-center w3-jumbo w3-border w3-round-xlarge my-border-blue">
-                                                            <i class="w3-margin"><a href="#" class="w3-text-blue">Contact Me</a></i><br />
+                                                            <i class="w3-margin" style="text-shadow:1px 1px 2px black,0 0 25px blue,0 0 5px darkblue;"><a href="#" class="w3-text-blue">Contact Me</a></i><br />
                                                             </div>
                             
                                                 </div>
@@ -186,7 +185,7 @@
                     <!--PAGE TITLE-->
                             <div class="w3-border my-border-blue"></div>
                                         <div class="w3-center">
-                                                <b class="w3-jumbo"><i>WEB PROJECT</i></b>
+                                                <b class="w3-jumbo"><i>WEB PROJECTS</i></b>
                                         </div>
                             <div class="w3-border my-border-blue"></div>
                     <br />
@@ -261,7 +260,7 @@
                     <br />
                     <br />
                     <div class="w3-border my-border-blue"></div>
-                            <div class="w3-center"><b class="w3-jumbo"><i>RESUME</i></b></div>
+                            <div class="w3-center"><b class="w3-jumbo"><i>SERVICES</i></b></div>
                     <div class="w3-border my-border-blue"></div>
                     <br />
                     <br />
@@ -270,16 +269,12 @@
                             <div class="pricing">
                             
                                         <div class="pricing-list w3-round-xxxlarge w3-center">
-                                            <div class="w3-center"><img src="/storage/cvpictures/cvpage1.png" style="width:75%"></img></div>
-                                        </div>
-                                        <br />
-                                        <div class="pricing-list w3-round-xxxlarge w3-center">
-                                            <div class="w3-center"><img src="/storage/cvpictures/cvpage2.png" style="width:75%"></img></div>
+                                            <div class="w3-center" style="height:1000PX;"></div>
                                         </div>
                                         <br />
                                         <!--DOWNLOAD-->
-                                        <div class="w3-border w3-border-blue w3-round-xxxlarge w3-center"><b style="font-size: 240%;"><i><u><a href="#" style="color:green;">DOWNLOAD RESUME</a></u></i></b></div>
-                                        <br />
+                                        <!--<div class="w3-border w3-border-blue w3-round-xxxlarge w3-center"><b style="font-size: 240%;"><i><u><a href="#" style="color:green;">DOWNLOAD RESUME</a></u></i></b></div>
+                                        <br />-->
                             
                             </div>
                     </div>
@@ -340,7 +335,7 @@
 
             <!--FOOTER-->
             <div class="w3-center">
-                <b class="footer w3-text-white"><i>&copy Sir_James</i></b>
+                <b class="footer w3-text-white"><i>&copy ProTech</i></b>
             </div>
 
             

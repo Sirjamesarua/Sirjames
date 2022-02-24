@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
-$DATABASE_URL=parse_url('postgres://tsvqkabfmebzwq:1b883c4275a0f01cce661a4a71b7a82a15b7b330d38e304657a37d422f72ac1b@ec2-54-209-43-223.compute-1.amazonaws.com:5432/de5eon8ec57uk');
+//$DATABASE_URL=parse_url('postgres://tsvqkabfmebzwq:1b883c4275a0f01cce661a4a71b7a82a15b7b330d38e304657a37d422f72ac1b@ec2-54-209-43-223.compute-1.amazonaws.com:5432/de5eon8ec57uk');
 
 return [
 
@@ -43,7 +43,45 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
+
+
         'mysql' => [
+            'driver' => 'mysql',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => false,
+            'engine' => null,
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+        ],
+
+        'pgsql' => [
+            'driver' => 'pgsql',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
+
+
+        /*'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL','mysql://bab088d75fcca8:ef22f3f6@us-cdbr-east-05.cleardb.net/heroku_64a1337a156d80e?reconnect=true'),
             'host' => env('DB_HOST', 'us-cdbr-east-05.cleardb.net'),
@@ -80,7 +118,7 @@ return [
         ],
 
 
-       /* 'pgsql' => [
+        'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
             'host' => isset($DATABASE_URL['host']) ? $DATABASE_URL['host'] : null,

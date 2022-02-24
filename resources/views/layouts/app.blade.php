@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>{{config('app.name','sirjames')}}</title>
+    <title>{{config('app.name','ProTech')}}</title>
     <script src="./js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/w3.css')}}" />
@@ -119,7 +119,7 @@
             <div class="header-container w3-center border-center">
             
                     <div class="header w3-xxjumbo w3-padding">
-                            <b><i><a href="/posts" style="text-decoration: none;">Sir_James</a></i></b>
+                            <b><i><a href="/posts" style="text-decoration: none;">ProTech</a></i></b>
                             
                             <br />
                             <div class="w3-border w3-border-grey w3-margin"> </div>
@@ -197,7 +197,7 @@
 
             <!--FOOTER-->
             <div class="w3-center">
-                <b class="footer w3-text-white"><i>&copy Sir_James</i></b>
+                <b class="footer w3-text-white"><i>&copy ProTech</i></b>
             </div>
 
             
