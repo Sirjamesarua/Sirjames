@@ -17,6 +17,7 @@
                     height:2500px;
                     font-family:serif;
                     color:#040978;
+                    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
                 }
                 
                 /*MY STYLE*/
@@ -43,9 +44,14 @@
                 
                 .header{
                     width:90%;
-                    color:#DFDFDF;
+                    /*color:#DFDFDF;*/
+                    color:white;
+                    text-shadow:1px 1px 2px red,0 0 25px pink,0 0 5px yellow;
                 }
-                
+
+                .about{
+                    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+                }
                 .contact-border{
                     border:4x #0C1730;
                 }
@@ -60,6 +66,7 @@
                     width:92%;
                     background-color:#DFDFDF;
                     /*background-color:white;*/
+                    box-shadow:1px 1px 2px darkblue,0 0 25px pink,0 0 5px black;
                 }
                 
                 .main2{
@@ -79,6 +86,7 @@
                 .pricing-list{
                     /*height:900px;*/
                     background-color:#780466;
+                    box-shadow:1px 1px 2px black,0 0 25px blue,0 0 5px darkblue;
                 }
                 
                     /*PROJECT*/
@@ -106,6 +114,10 @@
 
             .w3-left,.w3-right,.w3-badge{
                 cursor: pointer;
+            }
+
+            .line{
+                box-shadow:1px 1px 2px yellow,0 0 25px pink,0 0 5px red;
             }
         </style>
 
