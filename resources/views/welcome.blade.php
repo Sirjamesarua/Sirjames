@@ -171,7 +171,7 @@
                                                             <i>The Founder Of <b>Josmarket</b></i><br />
                                                             <i>Am A Fullstack Developer, Mobile App Developer</i><br />
                                                             <i>And Wordpress Developer,</i><br />
-                                                            <i>I Build Beautiful, Responsive And Search</i><br />
+                                                            <i>I Build Beautiful And Responsive Search</i><br />
                                                             <i>Engine Optimize Websites And Web Applications,</i><br />
                                                             <i>I Also Build Mobile Android Applications For Your Website,</i><br />
                                                             <i>Business, Organization Or  Any Other Type Of Project At A Discounted Price</i><br />
