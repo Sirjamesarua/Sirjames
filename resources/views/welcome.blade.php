@@ -177,7 +177,7 @@
                                                             <i>Business, Organization Or  Any Other Type Of Project At A Discounted Price</i><br />
                                                             
                                                             <div class="w3-center w3-jumbo w3-border w3-round-xlarge my-border-blue">
-                                                            <i class="w3-margin"><a href="#" class="w3-text-blue">Contact Me</a></i><br />
+                                                            <i class="w3-margin"><a href="#contactpage" class="w3-text-blue">Contact Me</a></i><br />
                                                             </div>
                             
                                                 </div>
@@ -311,7 +311,7 @@
                             <br />
                             <br />
                             
-                            <div class="w3-center w3-xxxlarge">
+                            <div class="w3-center w3-xxxlarge" id="contactpage">
                                         <form action="">
                                                     <b><i class="">EMAIL:</i></b>
                                                     <br />
