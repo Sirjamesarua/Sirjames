@@ -290,7 +290,7 @@
                                         </div>
                                         <br />
                                         <!--DOWNLOAD-->
-                                        <div class="w3-border w3-border-blue w3-round-xxxlarge w3-center"><b style="font-size: 240%;"><i><u><a href="#" style="color:green;">DOWNLOAD RESUME</a></u></i></b></div>
+                                        <div class="w3-border w3-border-blue w3-round-xxxlarge w3-center"><b style="font-size: 240%;"><i><u><a href="/storage/cvpictures/okonkwoaruajames.pdf" style="color:green;" download="okonkwoaruajames">DOWNLOAD RESUME</a></u></i></b></div>
                                         <br />
                             
                             </div>
