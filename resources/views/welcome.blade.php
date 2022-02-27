@@ -330,7 +330,7 @@
                                         <div class="whatsappme">
                                             <i class="">Or</i>
                                             <br />
-                                            <a href=""><b style="color:green"><u>WHATSAPP ME</u></b></a>
+                                            <a href="https://api.whatsapp.com/send?phone=2348140480701"><b style="color:green"><u>WHATSAPP ME</u></b></a>
 
                                             <br />
                                             <a href="tel:08140480701"><i class="fa fa-whatsapp">08140480701</i></a>,
