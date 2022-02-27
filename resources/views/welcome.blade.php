@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>{{config('app.name','sirjames')}}</title>
+    <link rel="icon" type="image/ico" href="/storage/cvpictures/favicon.ico" />
     <script src="./js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/w3.css')}}" />
