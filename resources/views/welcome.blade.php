@@ -15,6 +15,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ></link>
 
         <style>
+.w3-xxjumbo{font-size:100px!important}
+.w3-margin-large{margin:44px!important}
+.w3-padding-xxlarge{padding:24px 40px!important}
+.w3-padding-xlarge{padding:24px 36px!important}
+.w3-transparent-black{color:#fff!important;background-color:rgba(0,0,0,0.7);!important}
+.w3-border-top-round{border-top:4px solid;border-radius:80px #ccc!important}
+.w3-round-jumbo{border-radius:80px}
+.w3-topbar-small{border-top:2px solid #ccc!important}
+.w3-bottombar-small{border-bottom:2px solid #ccc!important}
+.w3-topbar-medium{border-top:4px solid #ccc!important}
+.w3-bottombar-medium{border-bottom:4px solid #ccc!important}
+.w3-round-xxxlarge{border-radius:60px}
+.w3-border-xlarge{border:8px solid #ccc!important}
+.w3-border-large{border:4px solid #ccc!important}
+.w3-border-top-large{border-top:4px solid #ccc!important}
+.w3-border-top-xlarge{border-top:6px solid #ccc!important}
+.w3-xjumbo{font-size:80px!important}
+
                 body{
                     background-image: radial-gradient(circle, #040978, #780466, blue);
                     height:2500px;
