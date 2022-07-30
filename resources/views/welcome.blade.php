@@ -155,14 +155,14 @@
                                                 
                                                             <br />
                                                             <i>Hi,</i><br />
-                                                            <i>Am <b>ARUA JAMES,</b></i><br />
-                                                            <i>The Founder Of <b>Josmarket</b></i><br />
-                                                            <i>Am A Fullstack Developer, Mobile App Developer</i><br />
-                                                            <i>And Wordpress Developer,</i><br />
-                                                            <i>I Build Beautiful, Responsive And Search</i><br />
-                                                            <i>Engine Optimize Websites And Web Applications,</i><br />
-                                                            <i>I Also Build Mobile Android Applications For Your Website,</i><br />
-                                                            <i>Business, Organization Or  Any Other Type Of Project At A Discounted Price</i><br />
+                                                            <i>I'm <b>ARUA JAMES,</b></i><br />
+                                                            <!--<i>Am A <b></b></i><br />-->
+                                                            <i>Am A PHP Programmer, Fullstack Developer, Mobile App Developer</i><br />
+                                                            <i>And Database Engineer</i><br />
+                                                            <i>I Develop Highly Secure Web Applications And Mobile Applications For Both Android And Ios Phones ,</i><br />
+                                                            <!--<i>Engine Optimize Websites And Web Applications,</i><br />-->
+                                                            <i>I Also Implement, Maintain And Solve Database Related Issues,</i><br />
+                                                            <!-- <i>Business, Organization Or  Any Other Type Of Project At A Discounted Price</i><br />-->
                                                             
                                                             <div class="w3-center w3-jumbo w3-border w3-round-xlarge my-border-blue">
                                                             <i class="w3-margin"><a href="#" class="w3-text-blue">Contact Me</a></i><br />
